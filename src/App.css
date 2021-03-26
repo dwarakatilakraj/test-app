@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App{
+  margin: 0 !important;
+  padding:0 !important;
+  font-family: sans-serif  !important;
+  background: url(/img/Batman.png) no-repeat  !important;
+  background-size: 100%  !important;
+  background-position: bottom;
+  background-color: #95e8fe;
+
+}
+
+.timePicker{
+    height: 50px !important;
+    margin-top: 10px;
+    width: 100px;
+    display: inline-block !important;
+   
+}
+.form-control{
+  display:inline-block !important;
+}
+.taskList{
+font-weight: bold;
+font-family: ui-rounded;
+font-style: normal;
+font-size: 3em;
+text-decoration: underline;
+text-align: center;
+}
+.taskName{
+  font-size: 1.5em;
+    margin: 5px 5px 5px 5px;
+    font-family: ui-sans-serif;
+}
+.deleteTask{
+  margin-right: 2px;
+}
+.brand-logo{
+  text-align: center;
+  position: relative !important;
+}
+
